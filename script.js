@@ -44,11 +44,11 @@ const translations = {
     'contact.title': 'Get support in your area',
     'contact.copy': 'Reach out by phone, email, or WhatsApp and we\'ll handle the rest.',
     'contact.phone.title': 'Phone',
-    'contact.phone.value': '+212 XXXXXX',
+    'contact.phone.value': '0034644660577',
     'contact.email.title': 'Email',
-    'contact.email.value': 'contact@stapservice.example',
+    'contact.email.value': 'stapservice@gmail.com',
     'contact.region.title': 'Region',
-    'contact.region.value': 'Casablanca and surrounding areas',
+    'contact.region.value': 'The Netherlands and surrounding areas',
     'contact.whatsapp.title': 'WhatsApp',
     'contact.whatsapp.button': 'Message us',
     'footer.copy': '© 2026 Stapservice. All rights reserved.',
@@ -95,11 +95,11 @@ const translations = {
     'contact.title': 'Obtenez de l’aide dans votre région',
     'contact.copy': 'Contactez-nous par téléphone, e-mail ou WhatsApp et nous nous occupons du reste.',
     'contact.phone.title': 'Téléphone',
-    'contact.phone.value': '+212 XXXXXX',
+    'contact.phone.value': '0034644660577',
     'contact.email.title': 'E-mail',
-    'contact.email.value': 'contact@stapservice.example',
+    'contact.email.value': 'stapservice@gmail.com',
     'contact.region.title': 'Zone',
-    'contact.region.value': 'Casablanca et environs',
+    'contact.region.value': 'The Netherlands and surrounding areas',
     'contact.whatsapp.title': 'WhatsApp',
     'contact.whatsapp.button': 'Envoyez un message',
     'footer.copy': '© 2026 Stapservice. Tous droits réservés.',
@@ -146,11 +146,11 @@ const translations = {
     'contact.title': 'Bölgenizde destek alın',
     'contact.copy': 'Hızlı yardım için telefon, e-posta veya WhatsApp üzerinden bize ulaşın.',
     'contact.phone.title': 'Telefon',
-    'contact.phone.value': '+212 XXXXXX',
+    'contact.phone.value': '0034644660577',
     'contact.email.title': 'E-posta',
-    'contact.email.value': 'contact@stapservice.example',
+    'contact.email.value': 'stapservice@gmail.com',
     'contact.region.title': 'Bölge',
-    'contact.region.value': 'Kazablanka ve çevresi',
+    'contact.region.value': 'Hollanda ve çevresindeki bölgeler',
     'contact.whatsapp.title': 'WhatsApp',
     'contact.whatsapp.button': 'Mesaj gönder',
     'footer.copy': '© 2026 Stapservice. Tüm hakları saklıdır.',
@@ -197,11 +197,11 @@ const translations = {
     'contact.title': 'Krijg ondersteuning in uw regio',
     'contact.copy': 'Neem contact op via telefoon, e-mail of WhatsApp en wij regelen de rest.',
     'contact.phone.title': 'Telefoon',
-    'contact.phone.value': '+212 XXXXXX',
+    'contact.phone.value': '0034644660577',
     'contact.email.title': 'E-mail',
-    'contact.email.value': 'contact@stapservice.example',
+    'contact.email.value': 'stapservice@gmail.com',
     'contact.region.title': 'Regio',
-    'contact.region.value': 'Casablanca en omgeving',
+    'contact.region.value': 'The Netherlands and surrounding areas',
     'contact.whatsapp.title': 'WhatsApp',
     'contact.whatsapp.button': 'Stuur bericht',
     'footer.copy': '© 2026 Stapservice. Alle rechten voorbehouden.',
@@ -252,3 +252,22 @@ navAnchors.forEach((anchor) => {
     navLinks.classList.remove('active');
   });
 });
+
+const animatedItems = document.querySelectorAll('[data-animate]');
+animatedItems.forEach((el, index) => {
+  el.classList.add('animate');
+  el.style.setProperty('--animate-delay', `${index * 80}ms`);
+});
+
+const revealObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.18,
+});
+
+animatedItems.forEach((el) => revealObserver.observe(el));

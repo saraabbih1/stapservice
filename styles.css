@@ -24,6 +24,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  overflow-x: hidden;
   background: linear-gradient(180deg, #070707 0%, #120f12 100%);
 }
 
@@ -131,6 +132,25 @@ a.button {
   background: linear-gradient(180deg, rgba(251, 133, 0, 0.08), rgba(15, 15, 15, 0.24));
 }
 
+.hero-photo {
+  position: relative;
+}
+
+.hero-photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 120px rgba(251, 133, 0, 0.22);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.hero-photo:hover::after {
+  opacity: 1;
+}
+
 .hero-photo img {
   width: 100%;
   height: auto;
@@ -179,6 +199,7 @@ a.button {
 
 .button:hover {
   transform: translateY(-2px);
+  box-shadow: 0 20px 45px rgba(251, 133, 0, 0.16);
 }
 
 .button {
@@ -433,6 +454,57 @@ a.button {
   font-size: 0.95rem;
 }
 
+/* Partners / Sponsors */
+.partners-section {
+  padding: 3rem 0 4rem;
+}
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: center;
+}
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+}
+.partner-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 52px;
+  border-radius: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.45);
+  transition: transform 0.32s cubic-bezier(.2,.9,.2,1), box-shadow 0.32s ease;
+}
+.partner-logo:hover .partner-badge {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 50px rgba(2,6,23,0.6);
+}
+
+@media (max-width: 900px) {
+  .partners-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .partners-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+  .partner-badge {
+    width: 100px;
+    height: 44px;
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-grid,
   .cards-grid,
@@ -506,43 +578,133 @@ a.button {
   }
 }
 
+/* Mobile improvements */
+@media (max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .hero-photo {
+    order: -1;
+  }
+  .hero-card__inner {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero {
+    padding: 2rem 0 1.25rem;
+  }
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .hero-copy {
+    font-size: 0.98rem;
+  }
+  .hero-photo {
+    border-radius: 1rem;
+  }
+  .hero-photo img {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .button {
+    padding: 0.9rem 1rem;
+  }
+  .partners-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+  }
+  .partner-badge {
+    width: 100%;
+    height: 48px;
+    font-size: 0.95rem;
+  }
+  .language-bar {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .partners-grid {
+    display: flex;
+    gap: 0.6rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+  }
+  .partner-logo {
+    flex: 0 0 auto;
+    width: 38%;
+  }
+  .partner-badge {
+    height: 44px;
+    font-size: 0.9rem;
+  }
+  .hero-photo img {
+    height: 180px;
+  }
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(28px) scale(0.99);
+  will-change: opacity, transform;
+}
+
+.animate.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity 0.9s ease var(--animate-delay), transform 0.9s ease var(--animate-delay);
+}
+
+.section-header,
+.cards-grid,
 .hero-content,
+.hero-photo,
 .hero-card,
-.service-card,
 .about-card,
 .contact-card,
 .language-bar,
 .footer-inner {
-  opacity: 0;
-  animation: fadeUp 0.85s ease forwards;
+  will-change: opacity, transform;
 }
 
 .hero-content {
-  animation-delay: 0.1s;
+  --animate-delay: 0.1s;
 }
 
 .hero-card {
-  animation-delay: 0.15s;
+  --animate-delay: 0.15s;
 }
 
-.service-card {
-  animation-delay: 0.2s;
+.cards-grid {
+  --animate-delay: 0.18s;
 }
 
 .about-card {
-  animation-delay: 0.25s;
+  --animate-delay: 0.22s;
 }
 
 .contact-card {
-  animation-delay: 0.28s;
+  --animate-delay: 0.26s;
 }
 
 .language-bar {
-  animation-delay: 0.12s;
+  --animate-delay: 0.12s;
 }
 
 .footer-inner {
-  animation-delay: 0.32s;
+  --animate-delay: 0.3s;
 }
 
 @keyframes fadeUp {
