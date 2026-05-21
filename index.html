@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stapservice | Home Appliance Repair</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Stapservice</a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+          <a class="button button--whatsapp" href="https://wa.me/34644660577" target="_blank" rel="noreferrer noopener" data-i18n="nav.whatsapp">WhatsApp</a>
+        </nav>
+        <div class="language-bar">
+          <span data-i18n="language.choose">Choose language:</span>
+          <button type="button" class="lang-button active" data-lang="en">EN</button>
+          <button type="button" class="lang-button" data-lang="fr">FR</button>
+          <button type="button" class="lang-button" data-lang="tr">TR</button>
+          <button type="button" class="lang-button" data-lang="nl">NL</button>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Premium Appliance Care</p>
+            <h1 data-i18n="hero.title">Fast, professional home appliance repair</h1>
+            <p class="hero-copy" data-i18n="hero.copy">We fix your appliances at home with reliable, fast, and careful service. Trusted by families who want comfort restored without compromise.</p>
+            <div class="hero-actions">
+              <a class="button button--primary" href="https://wa.me/34644660577" target="_blank" rel="noreferrer noopener" data-i18n="hero.cta">Contact on WhatsApp</a>
+              <a class="button button--ghost" href="#services" data-i18n="hero.cta2">View services</a>
+            </div>
+          </div>
+          <div class="hero-side">
+            <div class="hero-photo">
+              <img src="https://images.unsplash.com/photo-1569876345104-571517e8f7cc?auto=format&fit=crop&w=900&q=80" alt="Stapservice technician repairing a washing machine" />
+            </div>
+            <div class="hero-card">
+              <div class="hero-card__inner">
+                <div class="hero-card__label" data-i18n="card.label">On-site assistance</div>
+                <h2 data-i18n="card.title">Same-day diagnostics</h2>
+                <p data-i18n="card.copy">Certified technicians arrive with the right tools and a friendly, professional approach.</p>
+                <ul class="hero-features">
+                  <li data-i18n="card.bullet1">Fast appliance evaluation</li>
+                  <li data-i18n="card.bullet2">Quality parts and repairs</li>
+                  <li data-i18n="card.bullet3">Service warranty included</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="services.header.eyebrow">Our Services</p>
+            <h2 data-i18n="services.header.title">Expert repair for every major appliance</h2>
+            <p class="section-copy" data-i18n="services.header.copy">A premium service experience for washing machines, refrigerators, ovens, and more.</p>
+          </div>
+
+          <div class="cards-grid">
+            <article class="service-card">
+              <div class="service-icon">🧺</div>
+              <h3 data-i18n="service.washing">Washing Machine Repair</h3>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">🧊</div>
+              <h3 data-i18n="service.fridge">Refrigerator Repair</h3>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">🔥</div>
+              <h3 data-i18n="service.oven">Oven Repair</h3>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">🍽️</div>
+              <h3 data-i18n="service.dishwasher">Dishwasher Repair</h3>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">❄️</div>
+              <h3 data-i18n="service.ac">Air Conditioner Repair</h3>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">📺</div>
+              <h3 data-i18n="service.tv">Television Repair</h3>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">🏠</div>
+              <h3 data-i18n="service.diagnostic">On-site Diagnostic</h3>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">🔧</div>
+              <h3 data-i18n="service.maintenance">Maintenance & Servicing</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--split" id="about">
+        <div class="container split-grid">
+          <div>
+            <p class="eyebrow" data-i18n="about.eyebrow">About Stapservice</p>
+            <h2 data-i18n="about.title">Dependable appliance care with a premium approach</h2>
+            <p data-i18n="about.copy">Stapservice is dedicated to restoring comfort in your home with fast, skilled repairs delivered directly to your door. We emphasize transparent pricing, expert workmanship, and a calm, high-end experience.</p>
+            <ul class="feature-list">
+              <li data-i18n="about.bullet1">Certified technicians</li>
+              <li data-i18n="about.bullet2">Clear quotes and flexible scheduling</li>
+              <li data-i18n="about.bullet3">Fast, clean on-site service</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3 data-i18n="about.panel.title">Why choose Stapservice?</h3>
+            <p data-i18n="about.panel.copy">We combine precision repairs with thoughtful customer care so your appliances run smoothly and your home stays peaceful.</p>
+            <div class="about-stats">
+              <div>
+                <strong>99%</strong>
+                <span>Customer satisfaction</span>
+              </div>
+              <div>
+                <strong>8</strong>
+                <span>Professional services</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+            <h2 data-i18n="contact.title">Get support in your area</h2>
+            <p data-i18n="contact.copy">Reach out by phone, email, or WhatsApp and we'll handle the rest.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3 data-i18n="contact.phone.title">Phone</h3>
+              <p data-i18n="contact.phone.value">+212 XXXXXX</p>
+            </div>
+            <div class="contact-card">
+              <h3 data-i18n="contact.email.title">Email</h3>
+              <p data-i18n="contact.email.value">contact@stapservice.example</p>
+            </div>
+            <div class="contact-card">
+              <h3 data-i18n="contact.region.title">Region</h3>
+              <p data-i18n="contact.region.value">Casablanca and surrounding areas</p>
+            </div>
+            <div class="contact-card contact-card--cta">
+              <h3 data-i18n="contact.whatsapp.title">WhatsApp</h3>
+              <a class="button button--whatsapp button--small" href="https://wa.me/212XXXXXXXXX" target="_blank" rel="noreferrer noopener" data-i18n="contact.whatsapp.button">Message us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.copy">© 2026 Stapservice. All rights reserved.</p>
+        <p data-i18n="footer.tagline">Fast · Reliable · On-site</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
