@@ -38,123 +38,32 @@ const translations = {
     'about.bullet1': 'Certified technicians',
     'about.bullet2': 'Clear quotes and flexible scheduling',
     'about.bullet3': 'Fast, clean on-site service',
-    'about.panel.title': 'Why choose Stapservice?',
+    'about.panel.heading': 'Why choose Stapservice?',
     'about.panel.copy': 'We combine precision repairs with thoughtful customer care so your appliances run smoothly and your home stays peaceful.',
+    'award.card1.eyebrow': 'MORE THAN',
+    'award.card1.title': '20 YEARS OF EXPERIENCE',
+    'award.card1.copy': 'Skilled, fast, and reliable service since 2004.',
+    'award.card2.eyebrow': 'CERTIFIED BY',
+    'award.card2.title': 'E Techniek Nederland',
+    'award.card2.copy': 'installQ demonstrably better',
+    'award.card3.eyebrow': 'QUALITY GUARANTEED',
+    'award.card3.title': 'Original Parts',
+    'award.card3.copy': 'We use genuine parts and guarantee our repairs.',
     'contact.eyebrow': 'Contact',
     'contact.title': 'Get support in your area',
     'contact.copy': 'Reach out by phone, email, or WhatsApp and we\'ll handle the rest.',
     'contact.phone.title': 'Phone',
-    'contact.phone.value': '0034644660577',
+    'contact.phone.value': '0031644660577',
     'contact.email.title': 'Email',
     'contact.email.value': 'stapservice@gmail.com',
     'contact.region.title': 'Region',
-    'contact.region.value': 'The Netherlands and surrounding areas',
+    'contact.region.value': 'Rotterdam and surrounding areas',
     'contact.whatsapp.title': 'WhatsApp',
     'contact.whatsapp.button': 'Message us',
+    'partners.header.eyebrow': 'Brand Specialists',
+    'partners.header.title': 'Brands we work with',
     'footer.copy': '© 2026 Stapservice. All rights reserved.',
     'footer.tagline': 'Fast · Reliable · On-site',
-  },
-  fr: {
-    'nav.home': 'Accueil',
-    'nav.services': 'Services',
-    'nav.about': 'À propos',
-    'nav.contact': 'Contact',
-    'nav.whatsapp': 'WhatsApp',
-    'language.choose': 'Choisissez la langue :',
-    'hero.eyebrow': 'Soin Premium des appareils',
-    'hero.title': 'Réparation électroménager rapide et professionnelle',
-    'hero.copy': 'Nous réparons vos appareils à domicile avec un service fiable, rapide et soigné. Confié par des familles qui veulent retrouver leur confort sans compromis.',
-    'hero.cta': 'Contacter sur WhatsApp',
-    'hero.cta2': 'Voir les services',
-    'card.label': 'Assistance sur place',
-    'card.title': 'Diagnostic le jour même',
-    'card.copy': 'Des techniciens certifiés arrivent avec les bons outils et une approche professionnelle.',
-    'card.bullet1': 'Évaluation rapide',
-    'card.bullet2': 'Pièces de qualité',
-    'card.bullet3': 'Garantie de service incluse',
-    'services.header.eyebrow': 'Nos services',
-    'services.header.title': 'Réparation experte pour chaque appareil majeur',
-    'services.header.copy': 'Une expérience premium pour machines à laver, réfrigérateurs, fours et plus.',
-    'service.washing': 'Réparation machine à laver',
-    'service.fridge': 'Réparation réfrigérateur',
-    'service.oven': 'Réparation four',
-    'service.dishwasher': 'Réparation lave-vaisselle',
-    'service.ac': 'Réparation climatiseur',
-    'service.tv': 'Réparation télévision',
-    'service.diagnostic': 'Diagnostic à domicile',
-    'service.maintenance': 'Maintenance et entretien',
-    'about.eyebrow': 'À propos de Stapservice',
-    'about.title': 'Soin fiable des appareils avec une approche premium',
-    'about.copy': 'Stapservice restaure votre confort à domicile avec des réparations rapides et qualifiées. Nous privilégions la transparence, le savoir-faire et une expérience soignée.',
-    'about.bullet1': 'Techniciens certifiés',
-    'about.bullet2': 'Devis clairs et planification flexible',
-    'about.bullet3': 'Service propre et rapide sur place',
-    'about.panel.title': 'Pourquoi choisir Stapservice ?',
-    'about.panel.copy': 'Nous associons des réparations précises à un service client attentif pour que vos appareils fonctionnent parfaitement.',
-    'contact.eyebrow': 'Contact',
-    'contact.title': 'Obtenez de l’aide dans votre région',
-    'contact.copy': 'Contactez-nous par téléphone, e-mail ou WhatsApp et nous nous occupons du reste.',
-    'contact.phone.title': 'Téléphone',
-    'contact.phone.value': '0034644660577',
-    'contact.email.title': 'E-mail',
-    'contact.email.value': 'stapservice@gmail.com',
-    'contact.region.title': 'Zone',
-    'contact.region.value': 'The Netherlands and surrounding areas',
-    'contact.whatsapp.title': 'WhatsApp',
-    'contact.whatsapp.button': 'Envoyez un message',
-    'footer.copy': '© 2026 Stapservice. Tous droits réservés.',
-    'footer.tagline': 'Rapide · Fiable · Sur place',
-  },
-  tr: {
-    'nav.home': 'Ana Sayfa',
-    'nav.services': 'Hizmetler',
-    'nav.about': 'Hakkımızda',
-    'nav.contact': 'İletişim',
-    'nav.whatsapp': 'WhatsApp',
-    'language.choose': 'Dil seçin:',
-    'hero.eyebrow': 'Premium Cihaz Bakımı',
-    'hero.title': 'Hızlı, profesyonel beyaz eşya onarımı',
-    'hero.copy': 'Cihazlarınızı evde güvenilir, hızlı ve özenli bir servisle tamir ediyoruz. Rahatlığınızı geri kazanmak isteyen aileler tarafından tercih ediliyor.',
-    'hero.cta': 'WhatsApp ile iletişime geçin',
-    'hero.cta2': 'Hizmetlere göz atın',
-    'card.label': 'Yerinde destek',
-    'card.title': 'Aynı gün tanı',
-    'card.copy': 'Sertifikalı teknisyenler doğru aletlerle ve profesyonel bir yaklaşımla gelir.',
-    'card.bullet1': 'Hızlı cihaz değerlendirmesi',
-    'card.bullet2': 'Kaliteli parça ve onarım',
-    'card.bullet3': 'Servis garantisi dahildir',
-    'services.header.eyebrow': 'Hizmetlerimiz',
-    'services.header.title': 'Her büyük cihaz için uzman onarım',
-    'services.header.copy': 'Çamaşır makineleri, buzdolapları, fırınlar ve daha fazlası için premium servis deneyimi.',
-    'service.washing': 'Çamaşır Makinesi Onarımı',
-    'service.fridge': 'Buzdolabı Onarımı',
-    'service.oven': 'Fırın Onarımı',
-    'service.dishwasher': 'Bulaşık Makinesi Onarımı',
-    'service.ac': 'Klima Onarımı',
-    'service.tv': 'Televizyon Onarımı',
-    'service.diagnostic': 'Yerinde Tanı',
-    'service.maintenance': 'Bakım ve Servis',
-    'about.eyebrow': 'Stapservice Hakkında',
-    'about.title': 'Premium yaklaşım ile güvenilir cihaz bakımı',
-    'about.copy': 'Stapservice, evinizde konforu geri getirmeye adanmıştır. Hızlı, uzman onarımlar, şeffaf fiyatlandırma ve kaliteli servis sunar.',
-    'about.bullet1': 'Sertifikalı teknisyenler',
-    'about.bullet2': 'Net teklif ve esnek planlama',
-    'about.bullet3': 'Hızlı, temiz yerinde servis',
-    'about.panel.title': 'Neden Stapservice?',
-    'about.panel.copy': 'Cihazlarınızın sorunsuz çalışması için hassas onarımlar ve dikkatli müşteri hizmeti sunarız.',
-    'contact.eyebrow': 'İletişim',
-    'contact.title': 'Bölgenizde destek alın',
-    'contact.copy': 'Hızlı yardım için telefon, e-posta veya WhatsApp üzerinden bize ulaşın.',
-    'contact.phone.title': 'Telefon',
-    'contact.phone.value': '0034644660577',
-    'contact.email.title': 'E-posta',
-    'contact.email.value': 'stapservice@gmail.com',
-    'contact.region.title': 'Bölge',
-    'contact.region.value': 'Hollanda ve çevresindeki bölgeler',
-    'contact.whatsapp.title': 'WhatsApp',
-    'contact.whatsapp.button': 'Mesaj gönder',
-    'footer.copy': '© 2026 Stapservice. Tüm hakları saklıdır.',
-    'footer.tagline': 'Hızlı · Güvenilir · Yerinde',
   },
   nl: {
     'nav.home': 'Home',
@@ -191,24 +100,28 @@ const translations = {
     'about.bullet1': 'Gecertificeerde technici',
     'about.bullet2': 'Duidelijke offertes en flexibele planning',
     'about.bullet3': 'Snelle, schone service op locatie',
-    'about.panel.title': 'Waarom Stapservice?',
-    'about.panel.copy': 'We combineren nauwkeurige reparaties met aandacht voor de klant, zodat uw apparaten soepel blijven werken.',
+    'award.card1.eyebrow': 'MEER DAN',
+    'award.card1.title': '20 JAAR ERVARING',
+    'award.card1.copy': 'Deskundig, snel en betrouwbaar sinds 2004.',
+    'award.card2.eyebrow': 'ERKEND DOOR',
+    'award.card2.title': 'E Techniek Nederland',
+    'award.card2.copy': 'installQ aantoonbaar beter',
+    'award.card3.eyebrow': 'KWALITEIT GEGARANDEERD',
+    'award.card3.title': 'Originele onderdelen',
+    'award.card3.copy': 'Wij werken met originele onderdelen en geven garantie op reparatie.',
     'contact.eyebrow': 'Contact',
-    'contact.title': 'Krijg ondersteuning in uw regio',
-    'contact.copy': 'Neem contact op via telefoon, e-mail of WhatsApp en wij regelen de rest.',
-    'contact.phone.title': 'Telefoon',
-    'contact.phone.value': '0034644660577',
-    'contact.email.title': 'E-mail',
-    'contact.email.value': 'stapservice@gmail.com',
-    'contact.region.title': 'Regio',
-    'contact.region.value': 'The Netherlands and surrounding areas',
+    'contact.title': 'Neem contact op',
+    'contact.copy': 'Stuur ons een bericht via e-mail of WhatsApp voor snelle service.',
+    'contact.email.title': 'Email',
+    'contact.email.value': 'info@stapservice.nl',
     'contact.whatsapp.title': 'WhatsApp',
-    'contact.whatsapp.button': 'Stuur bericht',
+    'contact.whatsapp.button': 'Stuur ons een bericht',
+    'partners.header.eyebrow': 'Merkspecialisten',
+    'partners.header.title': 'Merken waar we mee werken',
     'footer.copy': '© 2026 Stapservice. Alle rechten voorbehouden.',
     'footer.tagline': 'Snel · Betrouwbaar · Op locatie',
   },
 };
-
 const translatePage = (lang) => {
   document.querySelectorAll('[data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
@@ -245,6 +158,33 @@ langButtons.forEach((button) => {
 
 const savedLanguage = localStorage.getItem('siteLanguage') || 'en';
 setLanguage(savedLanguage);
+
+const partnerImages = document.querySelectorAll('.partner-image');
+partnerImages.forEach((img) => {
+  const label = img.closest('.partner-badge')?.querySelector('.partner-label');
+  const hideLabel = () => {
+    if (label) {
+      label.style.display = 'none';
+    }
+  };
+  const showLabel = () => {
+    img.style.display = 'none';
+    if (label) {
+      label.style.display = 'flex';
+    }
+  };
+
+  img.addEventListener('load', hideLabel);
+  img.addEventListener('error', showLabel);
+
+  if (img.complete) {
+    if (img.naturalWidth > 0) {
+      hideLabel();
+    } else {
+      showLabel();
+    }
+  }
+});
 
 const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
 navAnchors.forEach((anchor) => {

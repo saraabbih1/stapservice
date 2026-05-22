@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80">
+  <rect width="220" height="80" rx="18" fill="#c6002f"/>
+  <circle cx="55" cy="40" r="22" fill="#ffffff"/>
+  <path d="M62 32a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" fill="#c6002f"/>
+  <path d="M65 52c3-6 9-11 17-11 8 0 16 4 16 11 0 7-7 11-16 11-7 0-14-4-17-11Z" fill="#ffffff"/>
+  <text x="130" y="53" font-family="Inter, Arial, sans-serif" font-size="32" fill="#ffffff" font-weight="700">LG</text>
+</svg>
