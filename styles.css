@@ -66,9 +66,16 @@ a.button {
 }
 
 .brand {
-  font-size: 1.35rem;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
   color: var(--accent);
+}
+
+.brand-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .nav-links {
