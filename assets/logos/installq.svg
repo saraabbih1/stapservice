@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80">
+  <rect width="260" height="80" rx="18" fill="#ffffff"/>
+  <path d="M50 25h20v8H50zM50 40h20v8H50z" fill="#003a71"/>
+  <path d="M84 28h18v24H84z" fill="#0097d6"/>
+  <path d="M110 37c0-5 4-9 9-9h15c5 0 9 4 9 9s-4 9-9 9h-15c-5 0-9-4-9-9Z" fill="#003a71"/>
+  <text x="170" y="52" font-family="Inter, Arial, sans-serif" font-size="26" fill="#003a71" font-weight="700">installQ</text>
+  <text x="170" y="68" font-family="Inter, Arial, sans-serif" font-size="14" fill="#003a71">aantoonbaar beter</text>
+</svg>

@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80">
-  <rect width="220" height="80" rx="18" fill="#ffffff"/>
   <circle cx="60" cy="40" r="24" fill="#0c4dac"/>
   <path d="M55 36h10v8" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
-  <text x="132" y="52" font-family="Inter, Arial, sans-serif" font-size="28" fill="#0c4dac" font-weight="700">indesit</text>
+  <text x="132" y="52" font-family="Inter, Arial, sans-serif" font-size="28" fill="#0c4dac" font-weight="700">INDESIT</text>
 </svg>

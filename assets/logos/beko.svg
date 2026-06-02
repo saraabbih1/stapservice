@@ -1,4 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80">
-  <rect width="220" height="80" rx="18" fill="#073b95"/>
-  <text x="50%" y="52%" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="40" fill="#ffffff" font-weight="700">beko</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 92" role="img" aria-label="beko">
+  <text
+    x="110"
+    y="50"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="58"
+    font-weight="800"
+    fill="#2f83bd"
+    letter-spacing="-3"
+  >beko</text>
+  <path
+    d="M30 78L194 55"
+    fill="none"
+    stroke="#2f83bd"
+    stroke-width="12"
+    stroke-linecap="butt"
+  />
 </svg>
